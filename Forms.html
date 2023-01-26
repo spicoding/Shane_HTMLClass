@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+
+<!--  style-->
+
+  <style>
+    form{
+      border: crimson solid;
+      padding: 25px;
+      background: ghostwhite;
+      alignment: center;
+    }
+
+    label{
+      font-family: Chilanka, sans-serif;
+      font-size: 20px;
+      padding-top: 15px;
+      font-style: italic;
+    }
+    input{
+      color: black;
+      font-family: Chandas, sans-serif;
+      font-size: 15px;
+      padding: 10px;
+    }
+
+  </style>
+
+
+</head>
+<body>
+<!--FORM-->
+<h2>Student Registration Form</h2>
+<form action="CONTACT%20US.html" method="post">
+  <label for="fullname">Full Name</label><br>
+  <input type="text" id="fullname" placeholder="Enter Your Name"><br>
+
+  <label for="email">Email Address</label><br>
+  <input type="email" id="email" placeholder="Email Address"><br>
+  <label for="phone">Phone Number</label><br>
+  <input type="text" id="phone" placeholder="Enter Your Phone Number"><br>
+  <label for="regdate">Date Of Birth</label><br>
+  <input type="date" id="regdate" placeholder="Date Of Birth"><br>
+
+  <label for="courses">Course Taken</label>
+  <select name="course" id="courses">
+    <option value="default">Select A Programme</option>
+    <option value="Musicproduction">Music production</option>
+    <option value="Pianolessons">Piano lessons</option>
+    <option value="Guitarlessons">Guitar lessons</option>
+    <option value="Bassguitarlessons">Bass guitar lessons</option>
+    <option value="Percussionlessons">Percussion lessons</option>
+    <option value="Drumlessons">Drum lessons</option>
+    <option value="DJlessons">DJ lessons</option>
+    <option value="Musicteaching">Music teaching</option>
+  </select><br>
+  <label for="image">Upload an Image</label>
+  <input type="file"><br>
+
+  <label for="passcode">Password</label><br>
+  <input type="password" id="passcode" placeholder="Enter Your Password"><br>
+
+
+  <input type="submit" value="Register">
+
+
+
+
+
+
+</form>
+<button type="button" onclick="alert(' Welcome to Safari Lab Morning Class')">Proceed</button>
+
+</body>
+</html>

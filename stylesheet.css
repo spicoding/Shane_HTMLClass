@@ -1,0 +1,156 @@
+/*css stylesheet*/
+
+/*Paragraph*/
+p{
+  font-family: Chilanka;
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+
+}
+
+/*HEADING ONE*/
+h1{
+
+  font-family: "DejaVu Sans";
+  font-size: 72px;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*HEADING 2*/
+h2{
+
+  font-family: "Century Schoolbook L";
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/*HEADING 3*/
+h3{
+
+  font-family: "Century Schoolbook L";
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+/*ORDERED LIST*/
+ol{
+  font-family: Chilanka;
+  font-size: 18px;
+  color: black;
+  alignment: center;
+}
+
+/*ANCHOR TEXT DESIGN*/
+a{
+  text-decoration: none;
+  color: black;
+  font-family: Chilanka;
+  font-size: larger;
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+}
+
+/*PAGE DESIGN*/
+
+header{
+  font-family: Chilanka;
+  font-size: large;
+  text-decoration: none;
+  background-color: #e1edee;
+  text-align: center;
+  padding: 20px;
+}
+
+/*Button*/
+button{
+  padding: 18px;
+  color: white;
+  background-color: #222222;
+  font-size: 16px;
+  font-family: Gayathri;
+  shape-rendering: geometricPrecision;
+  text-align: center;
+  margin: 5px;
+  animation: ease-in-out;
+  animation-play-state: running;
+  animation-direction: alternate;
+}
+
+/*BODY*/
+body{
+  background-color: whitesmoke;
+}
+
+
+/*LINK DESIGN*/
+
+/* unvisited link */
+a:link {
+  color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #2304ff;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+}
+
+
+/*images*/
+img{
+  background-blend-mode: normal;
+}
+
+
+/*FOOTER*/
+footer{
+  background-color: #222222;
+  background-blend-mode: lighten;
+
+}
+
+/*tables*/
+td,th{
+  border: 3px solid black;
+  font-family: Chilanka;
+  padding: 10px;
+  text-align: center;
+}
+th{
+  font-size: large;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/*lists*/
+li{
+
+  font-family: Chilanka;
+  font-size: 18px;
+  color: black;
+  alignment: center;
+}
+ul{
+
+  font-family: Chilanka;
+  font-size: 18px;
+  color: black;
+  alignment: center;
+}
